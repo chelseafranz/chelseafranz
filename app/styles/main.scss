@@ -3,24 +3,28 @@
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 // Custom Styles
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+
+.top{
+  font-family: 'PT Sans Narrow';
+  background-image: url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/8JigIMjjULpO18D/10275530_10204456235595428_3667510480061076685_o.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  height: 300px;
+  width: 900px;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+h1 {
+  font-size: 4em;
+  font-family: 'Ubuntu';
+  display: inline-block;
+  color: rgb(45, 43, 31);
+}
+h3{
+  font-family: 'PT Sans Narrow';
+  font-size: 2em;
+  width: 400px;
+  margin-top: -45px;
+  letter-spacing: 3px;
+  line-height: 0.8em;
 }
